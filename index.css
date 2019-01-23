@@ -1,0 +1,175 @@
+body{
+    font-family:sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/****************************  Header ****************************/
+
+#h1{
+    font-size: 360%;
+    text-align: center;
+    color: darkcyan;
+    margin: 2% 2%;
+
+}
+.fa.fa-home{
+    font-size: 180%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(30, 185, 172);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1% 8%;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+}
+  
+.active {  
+    color: white;
+}
+  
+.topnav .icon {
+    display: none;
+}
+
+.topnav a:hover {
+    color: #555;
+    
+}
+  
+@media screen and (max-width: 980px) {
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+      padding-top: 3%;
+      
+    }
+}
+  
+@media screen and (max-width: 980px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+    .topnav.responsive {float: none;}
+    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  #h2{
+      color:dimgray;
+      font-size: 150%;
+      margin: 2% 1% 2% 6%;
+     
+  }
+
+
+
+
+
+
+
+    
+h6{
+    color:dimgray;
+    text-align: center;
+    margin:auto;
+    font-size: 1.2em;   
+}
+
+.questions {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 0.1em;
+    color: darkgray;
+    width: 50%;
+    background-color: rgba(0,0,255,0.1);
+    /* -webkit-transition: width 2s, height 2s;  /* Safari 
+        transition: width 2s, height 2s;*/
+}
+
+.questions:hover {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color:black;
+    font-size: 1.1em;  
+    background: white; 
+    cursor:zoom-in;
+}
+@media (max-width: 920px) { 
+    .questions {
+        margin: auto;
+        width: 100%;
+    }
+    .questions:hover {
+        margin: auto;
+        width: 100%; 
+    }
+}
+ 
+.note {
+    text-align:center;
+}
+  
+
+.panel1, .flip1, .panel2, .flip2 {
+    padding: 1%;
+    background-color: #f4f7eb;
+    border: solid 1px #c3c3c3;
+    width: 55%;
+    margin: auto;
+  }
+  .flip1, .flip2{
+      color: dimgray;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+.panel1, .panel2{     
+    display: none; 
+    text-align: left;
+    padding: 1%;
+}
+@media (max-width: 920px) { 
+    .panel1, .flip1, .panel2, .flip2{
+        width: 92%;       
+    }
+}
+
+.to-top{
+    color: rgb(30, 185, 172);
+    
+    
+}
+footer{
+    background-color: rgb(30, 185, 172);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding:auto;
+    color: whitesmoke;
+}
