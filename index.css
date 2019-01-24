@@ -6,13 +6,6 @@ body{
 
 /****************************  Header ****************************/
 
-/* #h1{
-    font-size: 360%;
-    text-align: center;
-    color: darkcyan;
-    margin: 2% 2%;
-
-} */
 .fa.fa-home{
     font-size: 180%;
 }
@@ -21,7 +14,7 @@ body{
     background-color: rgb(30, 185, 172);
   }
   
-  .topnav a {
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -41,8 +34,7 @@ body{
 }
 
 .topnav a:hover {
-    color: #555;
-    
+    color: #555;    
 }
   
 @media screen and (max-width: 1200px) {
@@ -51,9 +43,10 @@ body{
     }
     .topnav a.icon {
       float: right;
-      display: block;
-      padding-top: 3%;
-      
+      display: block;   
+    }
+    .fa.fa-home{
+        font-size: 152%;
     }
 }
   
@@ -77,11 +70,12 @@ body{
       text-align: left;
     }
   }
-  #h2{
+  #h1{
       color:dimgray;
-      font-size: 150%;
-      margin: 5% 1% 5% 6%;
-     
+      font-size: 2em;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
   }
 
 
@@ -91,7 +85,7 @@ body{
 
 
     
-h6{
+h2{
     color:dimgray;
     text-align: center;
     margin:auto;
