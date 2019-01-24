@@ -11,165 +11,113 @@
   
 </head>
 <header>
-    <h1 id="h1">Newbie in Tech</h1>
+    
     <nav id="navigation">
         <div class="topnav" id="myTopnav">
-            <a href="#home" class="active"><i class="fa fa-home"></i></a>
-            <a href="#about">About</a>
-            <a href="index.html">Job Interview Tips</a>
-            <a href="learn-new-stuff.html">Learn New Stuff</a>
+            <a href="#home" class="active" style="color:#555;"><i class="fa fa-home"></i></a>
+            <a href="#about" style="color:#555;">About</a>
+            <a href="job-interview-tips.html" style="color:#555;">Job Interview Tips</a>
+            <a href="learn-new-stuff.html" style="color:#555;">Learn New Stuff</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">MENU</a>
         </div>   
     </nav>
     <!-- Retrived from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown-->
 </header>
 
-<body>
-
+<body onload="carousel()">
     
-    <h2 id="h2">Tech Job Interview Tips / Q&ampA</h2>
+    <style>
+    body{
+        background-color: rgb(40, 207, 193);
+    }
 
-    <!--   Bootstrap 4 Cards   -->
-    <div class="container">
-        <div class="card-columns">
-            <div class="card ">
-                <a href="#tech-support"><img class="card-img-top" src="images/Technical Support Interview Q & A.PNG" alt="7 Technical Support Interview Q &amp A" style="width:100%"></a>
-                
-                <div class="card-body">
-                    <a href="#tech-support" class="btn" ><b>Technical Support </b></a>
-                </div>
-            </div>
-                 
-            <div class="card ">
-                    <a href="#js" ><img class="card-img-top" src="images/4.PNG" alt="51 Javascript Interview Q &amp A" style="width:100%;"></a>
-                    <div class="card-body">
-                    <a href="#js" class="btn"><b>Javascript</b></a>
-                    </div>
-            </div>
-                  
-            <div class="card ">
-                    <img class="card-img-top" src="images/3.png" alt="Card image" style="width:100%; height:50%;">
-                    <div class="card-body">
-                        <a href="#" class="btn" ><b>Much More ...</b></a>
-                    </div>
-            </div>        
-        </div>       
-    </div>
-    <br/>
-    <hr>
+    h1{
+        font-size: 360%;
+        text-align: center;
+        color: white;
+        margin: 5% 5%;
 
-    <!-- Retrieved from https://www.w3schools.com/bootstrap4/bootstrap_cards.asp -->
+}
+.happyCoding {
+        border-radius: 50%;
+        height: 40%;
+        width: 34%;
+        position:absolute;
+        margin-left: 33%;
+        margin-bottom: 20%;
+    }
+@media screen and (max-width: 980px) {
+    .happyCoding {
+        height: 30%;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .happyCoding {
+        height: 30%;
+        width: 50%;
+        margin-left: 25%;
+    }
+    h1{
+        font-size: 280%;
+        margin: 10% 10%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .happyCoding {
+        height: 30%;
+        width: 50%;
+        margin-left: 25%;
+    }
 
-    <section>
-    <br/>
-    <h3 align="center" id="tech-support">7 Technical Support Interview Q &amp A</h3>
-    <br/>
-    <br/>
-    <h6>1. What made you get into technical support?</h6>
-    <br/>
-    
-    <div class="questions">
-    
-        <P><span></span> This question can help you gain a better understanding of the applicant's individual motivations. 
+    h1{
+        font-size: 200%;
+        margin: 15% 15%;
+    }
+}
 
-        <p> What to look for in an answer: </p>
 
-        <p> The candidate has a passion for technical support </p>
-        <p> The candidate comes off as honest and sincere </p>
-        <p> The candidate understands the bigger purpose of technical support </P>
+.happyCoding {
+        display:none;
+    }
+    </style>
 
-        <p> <strong>Example:</strong></p> 
-        <p>  "I decided to go into technical support because I've been fascinated by technology all my life, and I also love working with people. </p>
-        <p> I want to use my technical know-how to directly solve issues customers are having. </p>
-
-        <p> I want to be the person that makes life easier and more enjoyable for folks who've run into a problem." </p>
-    </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-    <h6>2. Why did you apply to our company?</h6>
-    <br/>
-    <div class="questions">
-        <P> This question helps you measure employee commitment. </P>
-
-        <P> What to look for in an answer: </P>
-
-        <P> The candidate understands your company's mission </P>
-        <P> The candidate shows how working for the company aligns with career ambitions </P>
-        <P> The candidate knows about specific endeavors your company is undertaking now </p>
-        <p> <strong>Example:</strong></p>
-        <p> "I applied to your company because your team is making life easier and more enjoyable for millions of people. </p>
-        <p> The scale of your work is tremendous, and I feel like my work here can have a real positive impact. </p>
-        <p> I also love the company culture and how there's a focus on teamwork and collaboration." </p>  
-    </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/> 
-    <!--<span> Mouse over above to see the answer</span>  -----------------------> 
-
-    <p  class="note"><a  href="https://www.indeed.com/hire/interview-questions/technical-support" target="_blank">READ MORE</a></p>
-    <br/>
-    <br/>
-    <p class="note">Please note: this post originally appeared on <a class="note" href="https://www.indeed.com/hire/interview-questions/technical-support" target="_blank"> Indeed</a>  </p>
-    <br/>  
-    
-    </section>
-
-    <hr>
-    <br/>
-
-    <section>
-        <h3 align="center" id="js">51 Javascript Interview Q &amp A</h3>
-        <br/>
-        <br/>
-    
-        <h6>1. What is the difference between the keywords var and let?</h6>
-        <br/>
-        <div class="flip1">Show / hide the answer </div>
-        <div class="panel1">  
-            <p> The keyword var is from the beginning of Javascript; whereas, let is introduced in ES2015/ES6.</p> 
-            <p> The keyword let has a block scope; whereas, the keyword var has a functional scope.</p>
-        </div>
-        <br/>
-        <br/>
-        <br/>
-    
-        <h6>2. What are Cookies in Javascript?</h6>
-        <br/>
-        <div class="flip2">Show / hide the answer </div>
-        <div class="panel2">
-            <P> A Cookie is a variable that is stored on a client's/visitors machine. Using Cookies, the servers can identify the client and the client's transactions. </P> 
-        </div>
-        <br/>
-    
-        <p  class="note"><a  href="https://www.greycampus.com/blog/programming/top-javascript-interview-questions-and-answers" target="_blank">READ MORE</a></p>
-        <br/>
-        <br/>
-        <p class="note">Please note: this post originally appeared on <a class="note" href="https://www.greycampus.com/blog/programming/top-javascript-interview-questions-and-answers" target="_blank"> GreyCampus</a>  </p>
-        <br/>    
-    </section> 
-
-<br/>
-<br/> 
-<div>
-        <a href="#navigation"><p align="right" class="to-top">BACK TO TOP</p></a>
-</div>
-<br/>
-<br/>
+    <h1>Newbie in Tech</h1> 
+        
+        <img src="images/happyCoding3.PNG" class="happyCoding" alt="happy coding"> 
+        <img src="images/happy coding.PNG" class="happyCoding" alt="happy coding">
+        <img src="images/happyCoding5.PNG" class="happyCoding" alt="happy coding">
+        <img src="images/happyCoding2.JPG" class="happyCoding" alt="happy coding">    
+ 
 </body>
+<!-- <script>
+        let myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          let i;
+          let x = document.getElementsByClassName("happyCoding");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+       // Retrieved from  https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr
+</script> -->
 
 <footer>
-    <p>&copy;2019</p>
+    <p style="color:#555;">Emerald &copy;2019</p>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>  
 <script src="index.js"></script>  
+
 
 
 </html>

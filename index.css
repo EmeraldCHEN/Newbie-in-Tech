@@ -6,13 +6,13 @@ body{
 
 /****************************  Header ****************************/
 
-#h1{
+/* #h1{
     font-size: 360%;
     text-align: center;
     color: darkcyan;
     margin: 2% 2%;
 
-}
+} */
 .fa.fa-home{
     font-size: 180%;
 }
@@ -28,7 +28,7 @@ body{
     text-align: center;
     padding: 1% 8%;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 110%;
     font-weight: bold;
 }
   
@@ -45,7 +45,7 @@ body{
     
 }
   
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
     .topnav a:not(:first-child) {
       display: none;
     }
@@ -57,7 +57,7 @@ body{
     }
 }
   
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -169,6 +169,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 5%;
     text-align: center;
     padding:auto;
     color: whitesmoke;
