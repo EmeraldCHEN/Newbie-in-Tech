@@ -70,7 +70,7 @@ body{
       text-align: left;
     }
   }
-  #h1{
+  .title{
       color:dimgray;
       font-size: 2em;
       margin-top: 5%;
@@ -85,7 +85,7 @@ body{
 
 
     
-h2{
+.questions_title {
     color:dimgray;
     text-align: center;
     margin:auto;
