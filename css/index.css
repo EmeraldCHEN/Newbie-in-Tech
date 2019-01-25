@@ -89,6 +89,7 @@ body{
     font-size: 1.2em;   
 }
 
+
 .questions {
     margin-left: 25%;
     margin-right: 25%;
@@ -150,12 +151,11 @@ body{
 }
 
 .to-top{
-    color: rgb(30, 185, 172);
-    
-    
+    color: rgb(30, 185, 172); 
 }
 footer{
-    background-color: rgb(30, 185, 172);
+    background-color: rgb(189, 192, 191);
+    opacity: 0.5;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -163,4 +163,9 @@ footer{
     height: 5%;
     text-align: center;
     padding:auto;
+    z-index: -999;
+    transition: 0.3s;
+}
+footer:hover {
+    opacity: 1;
 }
